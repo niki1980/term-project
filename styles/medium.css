@@ -1,0 +1,71 @@
+@media only screen and (min-width:37.5em) {
+
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+
+    }
+    
+    .subheading h1 {
+        font-size: 3vw;
+        float: left;
+        padding-left: 6.1rem;
+        padding-bottom: .5em;
+    }
+    .hero-image img {
+        margin-bottom: -1.3em;
+
+    }
+    .logo img {
+        float: left;
+        width: 60%;
+        padding-bottom: 1em;
+    }
+
+    #address {
+        float: right;
+        width: 40%;
+
+    }
+
+    /* -----Index------*/
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    div.intro .button-container {
+        float: right;
+        padding-left: 1em;
+        padding-bottom: .5em;
+    }
+    #story {
+        margin-left: 1.5em;
+        text-align: left;
+    }
+
+    .home-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+
+    /* -----Adventure Tours------*/
+    #tour-blurb {
+       
+        text-align: left;
+        padding: 0 1em;
+    }
+
+}

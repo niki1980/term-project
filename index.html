@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!-- Niki Johnson CIT230 Term Project -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke Mountain Biking Webpage</title>
+    <meta name="description" content="Contains data on weather in Tri-Cities">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/mountain-spoke-logoc.png" alt="logo for The Mountain Spoke website">
+        </div>
+        <div class="subheading">
+            <H1>Life is a highway - bike it!</H1>
+        </div>
+         <div id="address">
+            <p> 3950 Valley Commons Drive <br> Bozeman, MT 59718 <br> (406) 323-4063 <br> mountainspoke@gmail.com
+            </p>
+        </div>
+
+        <div class="hero-image"> <img src="images/banner-image-mountain-biker.jpg" alt="two bike riders on trail">
+        </div>
+
+        
+       
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventure-tours.html">Adventure Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="intro">
+            <h2 id="welcome">Welcome! We've got EVERYTHING bikes!</h2>
+            
+           <div class="button-container">
+           <a class="button" href="events.html">Register for an Event!</a>
+            </div>
+            <p id="story">The Mountain Spoke is a retail store located in beautiful Bozeman, Montana. We specialize in bikes, bike parts, bike repair, bike tours, and special events. We sponsor and organize custom tours throughout the season and promote several events including <strong>"Cycle the Continental Divide,"</strong> a ride that draws enthusiasts from around the world. Whether you're just getting into the sport or are an avid biker, our team of passionate experts is here to assist you with all of your biking needs. </p>
+        </div>
+        
+        <div class="home-images">
+            <figure class="image1"> <h3> Bike Sales</h3><img src="images/trick-bikesb.jpg" alt="available bike for sale">
+                <figcaption>
+                    We sell and service bikes for all types of terrain. Whether a beginner learning to ride a bike for the first time or an expert, we have something for everyone. We even have training wheels!</figcaption>
+            </figure>
+            <figure class="image2"> <h3> Bike Parts</h3> <img src="images/bike-tireb.jpg" alt="bike tire">
+                <figcaption>
+                    We stock name brand parts and every day essentials. If we don't have what you need, we'll find it for you and ship to store for free!</figcaption>
+            </figure>
+            <figure class="image3"> <h3> Bike Repairs</h3> <img src="images/bike-repair-bent-bike-rimb.jpg" alt="bent bike rim">
+                <figcaption>When you love to ride, flat tires and bent rims are bound to happen! From simple flat tires to mangled rims, our Bike Docs have your repair needs covered. Bring your busted bike in for a free consultation. We pride ourselves on our 24-hr. turn-around time!</figcaption>
+            </figure>
+            <figure class="image4"> <h3> All-Terrain Tours</h3> <img src="images/bike-tourb.jpg" alt="bike tour on dirt road in green fields and mountains">
+                <figcaption>We sponsor and organize private tours for individuals and groups. Our expert guides will hit the trails with you and show you sights you'd never experience on your own!</figcaption>
+            </figure>
+            <figure class="image5"> <h3> Bike Events</h3> <img src="images/woman-on-bike-in-mountainsb.jpg" alt="woman mountain biking in the mountains">
+                <figcaption>Register for one of our biking events today! We sponsor "Cycle the Continental Divide," "Girls Bike it Better" for ladies only, "Bozeman Beginning Bikers," and more!</figcaption>
+            </figure>
+             <div class="testimonial"> <h3> Customer Testimonials</h3> 
+                <p>My college roommates flew into town for "Girls Bike it Better." We had THE best time - it was just like we were back in college. Thanks to The Mountain Spoke for their expert knowledge of the area and detailed event planning. Will definitely be back!<br>Megan Burns - Olympia, WA<br><br>My son's 10th birthday will go down in history as his BEST EVER! Jay, our trail guide handled our group professionally and with ease. He entertained the kids and was an absolute pleasure to work with. Thank you, Jay!<br>Sandy Evans - Bozeman, MT</p>
+            </div>
+            
+        </div>
+
+       
+
+    </main>
+    <footer class="clearfix">
+        <p class="contact">
+            The Mountain Spoke
+            <br> 3950 Valley Commons Drive <br> Bozeman, MT 59718 
+            <br> (406) 323 - 4063
+            <br> mountainspoke@gmail.com
+
+        </p>
+        <p class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke <br><span id="currentDate"></span>
+        </p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/wayfinding.js"></script>
+</body>
+
+</html>

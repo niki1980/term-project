@@ -1,0 +1,297 @@
+/*
+font-family: 'Finger Paint', cursive;
+font-family: 'PT Sans', sans-serif;
+blue: #2292a4
+green: #bdbf09
+orange: #d97c06
+black: #2e3532
+gray: #E8E8E8
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'PT Sans', Ubuntu, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: .01em;
+
+}
+
+/* -----Header-Specific Content------*/
+
+.subheading h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5vw;
+    padding-top: .5em;
+    padding-right: 1.2em;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+
+}
+
+.logo img {
+
+    width: 100%;
+    padding: 1em 1em 0;
+
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -.3em;
+
+
+}
+
+header {
+    background-color: #E8E8E8;
+
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+
+#address {
+    text-align: center;
+    font-size: 1em;
+    padding: .2em;
+    
+}
+
+
+/* -----Navigation, Contact, Footer------*/
+
+nav {
+    background-color: #2292a4;
+    text-align: center;
+    box-shadow: 3px 5px lightgray;
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    color: #fff;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: .5em;
+    text-decoration: none;
+    font-size: 1em; 
+
+}
+
+nav ul li.active a {
+    background-color: #2e3532;
+
+}
+
+nav ul li a:hover {
+    background-color: #bdbf09;
+    color: #000;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.contact {
+    background-color: #2292a4;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: .9em;
+}
+
+.footer-bar {
+    background-color: #2e3532;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    font-size: .8em;
+    margin-top: 0;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+/* -----Index------*/
+
+h2 {
+    color: #d97c06;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: .5em;
+}
+
+#story {
+    margin: 0 1em;
+    text-align: center;
+}
+
+div.intro .button-container {
+    padding-left: 2.2em;
+
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+    letter-spacing: .0625em;
+    text-transform: uppercase;
+    background: #d97c06;
+    color: #fff;
+    margin: .5em 1em 1em;
+
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background: #bdbf09;
+}
+
+.home-images {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.home-images img {
+    max-width: 100%;
+    border: 3px solid #bdbf09;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    background-color: #E8E8E8;
+    margin: .75em;
+    padding: 0 1em .75em;
+    border: 3px solid #2292a4;
+    border-radius: 10px;
+
+}
+
+.testimonial {
+    background-color: #E8E8E8;
+    margin: .75em;
+    padding: 0 1em .75em;
+    border: 3px solid #2292a4;
+    border-radius: 10px;
+
+}
+
+figure h3 {
+    font-size: 1.2em;
+    color: #d97c06;
+    text-align: center;
+    padding-top: 0 1em;
+}
+
+.home-images figcaption {
+    text-align: center;
+    font-size: .9em;
+    margin-top: 1em;
+}
+
+
+.testimonial h3 {
+    font-size: 1.2em;
+    color: #d97c06;
+    text-align: center;
+    padding-top: 0 1em;
+
+}
+
+.testimonial p {
+    text-align: center;
+    font-size: .9em;
+    margin-top: 1em;
+}
+
+/*-------Adventure Tours -----------*/
+
+.adventure-image img {
+    max-width: 95%;
+    border: 3px solid #bdbf09;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 0 .5em 0;
+
+
+}
+
+#adventure1,
+#adventure2,
+#adventure3 {
+    background-color: #E8E8E8;
+    margin: .75em;
+    padding: 0 1em .75em;
+    border: 3px solid #2292a4;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.tour-price {
+    color: #2292a4;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #d97c06;
+    text-align: center;
+}
+
+#tour-blurb {
+    text-align: center;
+    padding: 1em;
+}
+
+
+}

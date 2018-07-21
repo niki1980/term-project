@@ -1,0 +1,33 @@
+@media only screen and (min-width:64em) {
+
+    nav ul li a {
+        font-size: larger;
+
+    }
+    
+
+    /* -----Index------*/
+    
+    .home-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+
+    }
+    
+    h2 {
+
+        font-size: 3vw;
+
+    }
+
+
+    /* -----Adventure Tours-----*/
+
+    
+    #adventure1,
+    #adventure2,
+    #adventure3 p {
+        font-size: 1em;
+    }
+}

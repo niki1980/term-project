@@ -11,7 +11,7 @@
         flex: 1 1 100%;
 
     }
-    
+
     .subheading h1 {
         font-size: 3vw;
         float: left;
@@ -63,9 +63,21 @@
 
     /* -----Adventure Tours------*/
     #tour-blurb {
-       
+
         text-align: left;
         padding: 0 1em;
     }
 
+    /* -----Events-------*/
+    .events {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .5em;
+
+    }
+    .events h2 {
+    font-size: 1.3em;
 }
+    .button1 {
+        margin-top: 5.2em;
+    }

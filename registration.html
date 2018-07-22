@@ -1,6 +1,5 @@
- 
-
 <!DOCTYPE html>
+
 <html lang="en-us">
 
 <head>
@@ -53,7 +52,67 @@
     </nav>
 
     <main>
-        
+        <h2>Event and Tour Registration</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Registrant Information</legend>
+                <label class="primero">*First Name<input type="text" name="fname" required></label>
+                <label class="primero"> *Last Name<input type="text" name="lname" required></label>
+                <label class="primero" for="frmAddressS">*Address<input name="ship-address" required id="frmAddressS" placeholder="123 Any Street" autocomplete="shipping street-address" required></label>
+                <label class="primero" for="frmCityS">City<input name="ship-city" required id="frmCityS" placeholder="Chicago" autocomplete="shipping locality"></label>
+                <label class="primero" for="frmZipS">*Zip<input name="ship-zip" required id="frmZipS" placeholder="12212" autocomplete="shipping postal-code"></label>
+                <label class="primero" for="frmCountryS">*Country<input name="ship-country" required id="frmCountryS" placeholder="USA" autocomplete="shipping country"></label>
+                <label class="primero">*Phone<input type="tel" name="phone" placeholder="1234441234" required></label>
+                <label class="primero">*Email<input type="email" name="email" placeholder="myemail@gmail.com" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Skill Level and Equipment Needs</legend>
+                <div>Skill Level</div>
+                <label class="choice"><input type="radio" name="level" value="beginner">Beginner</label>
+                <label class="choice"><input type="radio" name="level" value="intermediate">Intermediate</label>
+                <label class="choice"><input type="radio" name="level" value="advanced">Advanced</label>
+
+                <div>Equipment Needed - Select all that apply</div>
+                <label class="choice"><input type="checkbox" name="bike" value="yes">Bike</label>
+                <label class="choice"><input type="checkbox" name="helmet" value="yes">Helmet</label>
+                <label class="choice"><input type="checkbox" name="gloves" value="yes">Gloves</label>
+                <label class="choice"><input type="checkbox" name="cleats" value="yes">Cycling Cleats</label>
+                <label class="choice"><input type="checkbox" name="shorts" value="yes">Cushioned Riding Shorts</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>My Event or Tour</legend>
+                <label>Biking Event
+                <select name="event">
+                <option value="">Please Select &#9662;</option>
+                    <option value="event1">Cycle the Continental Divide</option>
+                     <option value="event2">Girls Bike it Better</option>
+                     <option value="event3">Bozeman Beginning Bikers</option>
+                     <option value="event4">Custom Tour</option>
+                    <option value="event5">Biker Bootcamp</option>
+                    <option value="event6">Bitty Bikers</option>
+                </select>
+                    <div>Are you registering with a buddy? If yes, please tell us in the comment section who they are.</div>
+                <label class="buddy"><input type="radio" name="buddy" value="yes">Yes</label>
+                <label class="buddy"><input type="radio" name="buddy" value="no">No</label>
+                 </label>
+                 </fieldset>
+                 <fieldset>
+                <legend>Accommodations or Comments</legend>
+
+                <textarea class="comments" name="info" rows="10" cols="40">Provide any additional information that will aid is in your registration. Please list any buddies you'll be riding with.</textarea>
+            </fieldset>
+                
+                                                             
+            <input type="submit" value="Sign Me Up" class="submitBtn">
+
+
+        </form>
+
+
+
+
     </main>
 
 

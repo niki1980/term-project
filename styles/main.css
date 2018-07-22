@@ -37,7 +37,7 @@ body {
 .logo img {
 
     width: 100%;
-    padding: 1em 1em 0;
+    padding: 2em 1em 0;
 
 }
 
@@ -398,6 +398,88 @@ h3 {
 .active.accordion-header::before {
     background-color: #bdbf09;
 }
+
+/*-----------Form-------------*/
+
+form fieldset {
+    margin: 2rem 2%;
+    border: 3px solid #2292a4;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    }
+
+form legend {
+    color: #bdbf09;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+form label.primero, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #d97c06;
+    font-size:1rem;
+    
+}
+
+form label.primero input, form label.primero select {
+    -webkit-appeareance: none;
+  display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #2e3532;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+    
+}
+form label.choice {
+    display: block;
+    padding: .75rem 0;
+    color: #2e3532;
+    
+}
+form label.buddy {
+    display: block;
+    padding: .75rem 0;
+    color: #2e3532;
+    
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #d97c06;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.primero input:required{
+    border-bottom: darkred solid 5px;
+    
+}
+form llabel.primero input:required:valid{
+    border-right:  #bdbf09 solid 5px;
+    
+
+}
+.submitBtn:hover {
+    background-color: #bdbf09;
+}
+
+.comments {
+    display: block;
+    padding: .75rem 0;
+    width: 100%;
+    max-width: 20rem;
+}
+
 
 
 /*-----------THANKS-------------*/

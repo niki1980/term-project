@@ -31,3 +31,8 @@
         font-size: 1em;
     }
 }
+/*--------Form-----------*/
+
+form label.choice {
+    padding: .4rem 0;
+}

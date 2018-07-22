@@ -14,7 +14,6 @@
 
     .subheading h1 {
         font-size: 3vw;
-        float: left;
         padding-left: 6.1rem;
         padding-bottom: .5em;
     }
@@ -24,7 +23,7 @@
     }
     .logo img {
         float: left;
-        width: 60%;
+        width: 100%;
         padding-bottom: 1em;
     }
 

@@ -78,6 +78,11 @@
     .events h2 {
     font-size: 1.3em;
 }
-    .button1 {
-        margin-top: 5.2em;
-    }
+    
+    /*-------Events------------------*/
+    
+    form h2 {
+       font-size: 2em;
+
+}
+   

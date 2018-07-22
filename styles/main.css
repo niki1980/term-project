@@ -193,6 +193,7 @@ div.intro .button-container {
     background: #bdbf09;
 }
 
+
 .home-images {
     display: grid;
     grid-template-columns: 1fr;
@@ -343,4 +344,67 @@ h3 {
 }
 .events h2 {
     font-size: 1em;
+}
+.event-button {
+    text-align: center;
+      
+}
+
+/*----------Sales------------*/
+
+
+.accordion {
+    background: linear-gradient(to bottom right, white, #F8F8F8);
+    max-width: 100%;
+    background: white;
+    margin: 1em 1.5em 2em;
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+    border-bottom: 1px solid #DDE0E7;
+    color: #2a313a;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 1.5rem;
+}
+
+.accordion-header:hover {
+    background: #bdbf09;
+}
+
+.accordion-content {
+    display: none;
+    border-bottom: 1px solid #DDE0E7;
+    background: #F6F7F9;
+    padding: 1.5rem;
+    color: #4a5666;
+}
+
+.bike-photos img {
+     max-width: 100%;
+}
+.accordion-header::before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: .75rem;
+    height: .75rem;
+    border-radius: 50%;
+    background-color: #B1B5BE;
+    margin-right: .75rem;
+}
+
+.active.accordion-header::before {
+    background-color: #bdbf09;
+}
+
+
+/*-----------THANKS-------------*/
+
+.thanks {
+    color: #2292a4;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20%;
 }

@@ -23,38 +23,49 @@ body {
 
 /* -----Header-Specific Content------*/
 
-.subheading h1 {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 5vw;
-    padding-top: .5em;
-    padding-right: 1.2em;
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 960px;
+    margin: 15px auto;
+}
+
+picture {
+    flex: 0 1 100px;
     text-align: center;
-    font-style: italic;
-    margin: auto;
-
+    background-color: white;
 }
 
-.logo img {
-
-    width: 100%;
-    padding: 2em 1em 0;
-
-}
-
-.hero-image img {
+picture img {
     width: 100%;
     height: auto;
-    margin-bottom: -.3em;
+}
 
+.headings {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headings h1 {
+    font-size: 1.5rem;
+    color: #bdbf09;
+    margin-bottom: 0;
+    text-align: center;
 
 }
 
-header {
-    background-color: #E8E8E8;
+.headings h2 {
+    font-size: 0.95rem;
+    color: #2e3532;
+    font-style: italic;
 
 }
 
-header,
 nav,
 main,
 footer {
@@ -68,7 +79,7 @@ footer {
     text-align: center;
     font-size: 1em;
     padding: .2em;
-    
+
 }
 
 
@@ -78,7 +89,7 @@ nav {
     background-color: #2292a4;
     text-align: center;
     box-shadow: 3px 5px lightgray;
-    
+
 }
 
 nav button {
@@ -87,7 +98,7 @@ nav button {
     border: none;
     font-size: 1.8rem;
     color: #fff;
-    
+
 }
 
 nav ul {
@@ -106,7 +117,7 @@ nav ul li a {
     text-align: center;
     padding: .5em;
     text-decoration: none;
-    font-size: 1em; 
+    font-size: 1em;
 
 }
 
@@ -300,6 +311,7 @@ h3 {
     padding: 1em;
     text-align: center;
 }
+
 .events {
     display: grid;
     grid-template-columns: 1fr;
@@ -307,26 +319,30 @@ h3 {
     background-color: #bdbf09;
     padding: 1em;
     margin-bottom: 1em;
-    
+
 }
-.event1{
+
+.event1 {
     background-color: white;
     padding: .5em;
 }
+
 .event-photos img {
     max-width: 100%;
     border: 3px solid #2e3532;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
 }
+
 .event-name {
     color: #d97c06;
 }
 
 .event-terms {
     color: #2292a4;
-    
+
 }
+
 .event-fee {
     color: #2292a4;
     font-size: 1em;
@@ -334,6 +350,7 @@ h3 {
     padding: .2em;
     text-align: center;
 }
+
 .event-dates {
     color: #2e3532;
     font-size: 1em;
@@ -342,23 +359,24 @@ h3 {
     margin-left: .3em;
     text-align: center;
 }
+
 .events h2 {
     font-size: 1em;
 }
+
 .event-button {
     text-align: center;
-      
+
 }
 
 /*----------Sales------------*/
-
 
 .accordion {
     background: linear-gradient(to bottom right, white, #F8F8F8);
     max-width: 100%;
     background: white;
     margin: 1em 1.5em 2em;
-  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
 }
 
 .accordion-header {
@@ -382,8 +400,9 @@ h3 {
 }
 
 .bike-photos img {
-     max-width: 100%;
+    max-width: 100%;
 }
+
 .accordion-header::before {
     content: '';
     vertical-align: middle;
@@ -406,7 +425,7 @@ form fieldset {
     border: 3px solid #2292a4;
     border-radius: 10px;
     padding: .5rem 2%;
-    }
+}
 
 form legend {
     color: #bdbf09;
@@ -415,17 +434,19 @@ form legend {
     font-size: 1.5rem;
 }
 
-form label.primero, form div{
+form label.primero,
+form div {
     display: block;
     padding-top: 1rem;
     color: #d97c06;
-    font-size:1rem;
-    
+    font-size: 1rem;
+
 }
 
-form label.primero input, form label.primero select {
+form label.primero input,
+form label.primero select {
     -webkit-appeareance: none;
-  display: block;
+    display: block;
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
@@ -433,20 +454,22 @@ form label.primero input, form label.primero select {
     color: #2e3532;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
-    
+    background-color: rgba(0, 0, 0, 0.1);
+
 }
+
 form label.choice {
     display: block;
     padding: .75rem 0;
     color: #2e3532;
-    
+
 }
+
 form label.buddy {
     display: block;
     padding: .75rem 0;
     color: #2e3532;
-    
+
 }
 
 form input.submitBtn {
@@ -460,15 +483,17 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-form label.primero input:required{
+form label.primero input:required {
     border-bottom: darkred solid 5px;
-    
-}
-form llabel.primero input:required:valid{
-    border-right:  #bdbf09 solid 5px;
-    
 
 }
+
+form llabel.primero input:required:valid {
+    border-right: #bdbf09 solid 5px;
+
+
+}
+
 .submitBtn:hover {
     background-color: #bdbf09;
 }

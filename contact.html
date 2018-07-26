@@ -13,30 +13,26 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans" rel="stylesheet">
+    
 
 
 </head>
 
 <body>
 
- 
+
     <header>
-        <div class="logo">
-            <img src="images/mountain-spoke-logoc.png" alt="logo for The Mountain Spoke website">
-        </div>
-        <div class="subheading">
+        <picture>
+            <img src="images/mountain-spoke-logob.png" alt="The Mountain Spoke logo">
+        </picture>
+        <section class="headings">
             <H1>Life is a highway - bike it!</H1>
-        </div>
-         <div id="address">
-            <p> 3950 Valley Commons Drive <br> Bozeman, MT 59718 <br> (406) 323-4063 <br> mountainspoke@gmail.com
-            </p>
-        </div>
 
-        <div class="hero-image"> <img src="images/banner-image-mountain-biker.jpg" alt="two bike riders on trail">
-        </div>
+            <h2> 3950 Valley Commons Drive <br> Bozeman, MT 59718 <br> (406) 323-4063 <br> mountainspoke@gmail.com
+            </h2>
 
-        
-       
+        </section>
+
     </header>
 
     <nav>
@@ -50,24 +46,54 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
- 
-        <main>
-    
-    
-    
-      
-    
-    
-    
+
+    <main>
+         <h2>We'd love to hear from you!</h2>
+        <form method="get" action="thanks2.html">
+            <fieldset>
+       <legend>Contact Info</legend>
+                <label class="primero">*Full Name<input type="text" name="fullname" required></label>
+                <label class="primero">*Phone<input type="tel" name="phone" placeholder="1234441234" required></label>
+                <label class="primero">*Email<input type="email" name="email" placeholder="myemail@gmail.com" required></label>
+                 <div>Would you like us to call, text, or email you?</div>
+                <label class="buddy"><input type="radio" name="buddy" value="yes">Call</label>
+                <label class="buddy"><input type="radio" name="buddy" value="no">Text</label>
+                <label class="buddy"><input type="radio" name="buddy" value="no">Email</label>
+            </fieldset>
+            <fieldset>
+                <legend>What can we do for you?</legend>
+
+                <textarea placeholder="Type your comments or questions here" rows="10" cols="40" ></textarea>
+            </fieldset>
+
+
+            <input type="submit" value="Submit my Message" class="submitBtn">
+
+
+
+
+        </form>
+        
+        <div id="map" style="width:400px;height:400px">
+        </div>
+        function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
     </main>
 
 
 
 
-  <footer class="clearfix">
+    <footer class="clearfix">
         <p class="contact">
             The Mountain Spoke
-            <br> 3950 Valley Commons Drive <br> Bozeman, MT 59718 
+            <br> 3950 Valley Commons Drive <br> Bozeman, MT 59718
             <br> (406) 323 - 4063
             <br> mountainspoke@gmail.com
 
@@ -78,6 +104,7 @@
     <script src="scripts/scripts.js"></script>
     <script src="scripts/currentDate.js"></script>
     <script src="scripts/wayfinding.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 </body>
 
 </html>

@@ -21,21 +21,16 @@
 <body>
 
     <header>
-        <div class="logo">
-            <img src="images/mountain-spoke-logoc.png" alt="logo for The Mountain Spoke website">
-        </div>
-        <div class="subheading">
+        <picture>
+            <img src="images/mountain-spoke-logob.png" alt="The Mountain Spoke logo">
+        </picture>
+        <section class="headings">
             <H1>Life is a highway - bike it!</H1>
-        </div>
-        <div id="address">
-            <p> 3950 Valley Commons Drive <br> Bozeman, MT 59718 <br> (406) 323-4063 <br> mountainspoke@gmail.com
-            </p>
-        </div>
 
-        <div class="hero-image"> <img src="images/banner-image-mountain-biker.jpg" alt="two bike riders on trail">
-        </div>
+            <h2> 3950 Valley Commons Drive <br> Bozeman, MT 59718 <br> (406) 323-4063 <br> mountainspoke@gmail.com
+            </h2>
 
-
+        </section>
 
     </header>
 
@@ -56,8 +51,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Registrant Information</legend>
-                <label class="primero">*First Name<input type="text" name="fname" required></label>
-                <label class="primero"> *Last Name<input type="text" name="lname" required></label>
+                <label class="primero">*Full Name<input type="text" name="fullname" required></label>
                 <label class="primero" for="frmAddressS">*Address<input name="ship-address" required id="frmAddressS" placeholder="123 Any Street" autocomplete="shipping street-address" required></label>
                 <label class="primero" for="frmCityS">City<input name="ship-city" required id="frmCityS" placeholder="Chicago" autocomplete="shipping locality"></label>
                 <label class="primero" for="frmZipS">*Zip<input name="ship-zip" required id="frmZipS" placeholder="12212" autocomplete="shipping postal-code"></label>
@@ -96,15 +90,15 @@
                     <div>Are you registering with a buddy? If yes, please tell us in the comment section who they are.</div>
                 <label class="buddy"><input type="radio" name="buddy" value="yes">Yes</label>
                 <label class="buddy"><input type="radio" name="buddy" value="no">No</label>
-                 </label>
-                 </fieldset>
-                 <fieldset>
+                </label>
+            </fieldset>
+            <fieldset>
                 <legend>Accommodations or Comments</legend>
 
                 <textarea class="comments" name="info" rows="10" cols="40">Provide any additional information that will aid is in your registration. Please list any buddies you'll be riding with.</textarea>
             </fieldset>
-                
-                                                             
+
+
             <input type="submit" value="Sign Me Up" class="submitBtn">
 
 

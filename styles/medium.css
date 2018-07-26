@@ -12,26 +12,17 @@
 
     }
 
-    .subheading h1 {
-        font-size: 3vw;
-        padding-left: 6.1rem;
-        padding-bottom: .5em;
-    }
-    .hero-image img {
-        margin-bottom: -1.3em;
+header {
+    
+    flex-direction: row;
+   
+}
+    picture {
+    flex: 0 1 600px;
+    
+   
+}
 
-    }
-    .logo img {
-        float: left;
-        width: 100%;
-        padding-bottom: 1em;
-    }
-
-    #address {
-        float: right;
-        width: 40%;
-
-    }
 
     /* -----Index------*/
     h2 {

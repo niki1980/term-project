@@ -538,12 +538,10 @@ table, th, td {
 /*--------Contact-----------*/
 
 iframe {
-    
-    width: 100%;
-    
-}
-.contact-preference {
-    border: none;
+    padding 1em;
+  width: 100%;
+    height: auto;
+
 }
 
 }

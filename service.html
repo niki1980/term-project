@@ -23,7 +23,7 @@
 
    var servicepricing = [];
 
-   $.getJSON('servicepricing.json', function(data) {
+   $.getJSON('https://niki1980.github.io/term-project/data/servicepricing.json', function(data) {
        $.each(data.pricing, function(i, f) {
           var tblRow = "<tr>" + "<td>" + f.service + "</td>" +
            "<td>" + f.cost + "</td>" + "<td>"

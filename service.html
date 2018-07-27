@@ -16,24 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<script>
 
-    $(function() {
-
-
-   var servicepricing = [];
-
-   $.getJSON('https://niki1980.github.io/term-project/data/servicepricing.json', function(data) {
-       $.each(data.pricing, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.service + "</td>" +
-           "<td>" + f.cost + "</td>" + "<td>"
-           $(tblRow).appendTo("#userdata tbody");
-     });
-
-   });
-
-});
-</script>
 
 </head>
 
@@ -69,26 +52,35 @@
 
 
     <main>
+        <h2>Our Services</h2>
 
-<body>
+        <div class="service-info">
 
-<div class="wrapper">
-<div class="profile">
-   <table id= "userdata" border="2">
-  <thead>
-            <th>Service</th>
-            <th>Cost</th>
-        </thead>
-      <tbody>
+            <article class="service-data">
 
-       </tbody>
-   </table>
+                <p class="service">Service:</p>
+                <p><span id="service1"></span></p><br>
+                <p><span id="service2"></span></p><br>
+                <p><span id="service3"></span></p><br>
+                <p><span id="service4"></span></p><br>
+                <p><span id="service5"></span></p><br>
+                <p><span id="service6"></span></p><br>
+                <p><span id="service7"></span></p><br>
+                <p><span id="service8"></span></p><br>
+            </article>
 
-</div>
-</div>
-
-</body>
-
+            <article class="cost-data">
+                <p class="cost">Price for Service:</p>
+                <p><span id="cost1"></span></p><br>
+                <p><span id="cost2"></span></p><br>
+                <p><span id="cost3"></span></p><br>
+                <p><span id="cost4"></span></p><br>
+                <p><span id="cost5"></span></p><br>
+                <p><span id="cost6"></span></p><br>
+                <p><span id="cost7"></span></p><br>
+                <p><span id="cost8"></span></p><br>
+            </article>
+        </div>
     </main>
 
 
@@ -106,7 +98,7 @@
     <script src="scripts/scripts.js"></script>
     <script src="scripts/currentDate.js"></script>
     <script src="scripts/wayfinding.js"></script>
-    <script src="scripts/jQuery.js"></script>
+    <script src="scripts/service-info.js"></script>
 </body>
 
 </html>

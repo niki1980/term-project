@@ -1,34 +1,37 @@
 {
-  "pricing" : [
-  {
-    "service": "Comprehensive Tune up",
-    "cost": "$200.00"
+    "pricing": [
+        {
+            "service": "Comprehensive Tune up",
+            "cost": "$200.00"
   },
-   {
-    "service": "Basic Tune Up",
-    "cost": "$60.00"
+        {
+            "service": "Basic Tune Up",
+            "cost": "$60.00"
   },
-  {
-    "service": "Replace Brake Pads",
-    "cost": "$40.00"
+        {
+            "service": "Replace Brake Pads",
+            "cost": "$40.00"
   },
-  {
-    "service": "Wheel Truing",
-    "cost": "$30.00"
+        {
+            "service": "Wheel Truing",
+            "cost": "$30.00"
   },
-  {
-    "service": "Dérailleur Adjustment",
-    "cost": "$25.00"
+        {
+            "service": "Dérailleur Adjustment",
+            "cost": "$25.00"
   },
-  {
-    "service": "Tire Replacement",
-    "cost": "$20.00"
+        {
+            "service": "Tire Replacement",
+            "cost": "$20.00"
   },
-  {
-    "service": "Bike Wash",
-    "cost": "$20.00"
+        {
+            "service": "Bike Wash",
+            "cost": "$20.00"
   },
-  {
-    "service": "Shock Adjustment",
-    "cost": "$30.00"
+        {
+            "service": "Shock Adjustment",
+            "cost": "$30.00"
   }
+
+      ]
+}

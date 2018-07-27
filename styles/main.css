@@ -243,7 +243,7 @@ figure h3 {
     font-size: 1.2em;
     color: #d97c06;
     text-align: center;
-    padding-top: 0 1em;
+    padding-top: 1em;
 }
 
 .home-images figcaption {
@@ -257,7 +257,7 @@ figure h3 {
     font-size: 1.2em;
     color: #d97c06;
     text-align: center;
-    padding-top: 0 1em;
+    padding-top: 1em;
 
 }
 
@@ -420,7 +420,7 @@ h3 {
 
 /*-----------Form-------------*/
 
-form fieldset {
+form fieldset, div {
     margin: 2rem 2%;
     border: 3px solid #2292a4;
     border-radius: 10px;
@@ -435,7 +435,7 @@ form legend {
 }
 
 form label.primero,
-form div {
+form div  {
     display: block;
     padding-top: 1rem;
     color: #d97c06;
@@ -488,7 +488,7 @@ form label.primero input:required {
 
 }
 
-form llabel.primero input:required:valid {
+form label.primero input:required:valid {
     border-right: #bdbf09 solid 5px;
 
 
@@ -539,10 +539,13 @@ table, th, td {
 /*--------Contact-----------*/
 
 iframe {
-   margin: 2em;
-    align-content: center;
-    width: 100%;
+    margin: 2rem 2%;
+    border: 3px solid #2292a4;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    
+}
+
 }
 
 
-}

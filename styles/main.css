@@ -420,7 +420,7 @@ h3 {
 
 /*-----------Form-------------*/
 
-form fieldset, form div {
+form fieldset, div {
     margin: 2rem 2%;
     border: 3px solid #2292a4;
     border-radius: 10px;
@@ -538,12 +538,12 @@ table, th, td {
 /*--------Contact-----------*/
 
 iframe {
-    margin: 2rem 2%;
-    border: 3px solid #2292a4;
-    border-radius: 10px;
-    padding: .5rem 2%;
+    
     width: 100%;
     
+}
+.contact-preference {
+    border: none;
 }
 
 }

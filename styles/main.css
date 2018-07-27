@@ -420,7 +420,7 @@ h3 {
 
 /*-----------Form-------------*/
 
-form fieldset, div {
+form fieldset {
     margin: 2rem 2%;
     border: 3px solid #2292a4;
     border-radius: 10px;
@@ -478,7 +478,7 @@ form input.submitBtn {
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: 0 0 2rem 3%;
     width: 96%;
     max-width: 20rem;
 }
@@ -538,10 +538,12 @@ table, th, td {
 /*--------Contact-----------*/
 
 iframe {
-    padding 1em;
-  width: 100%;
-    height: auto;
+width: 100%;
 
+ 
+}
+div.map {
+    margin: 1em;
 }
 
 }

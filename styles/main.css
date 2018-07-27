@@ -445,7 +445,7 @@ form div  {
 
 form label.primero input,
 form label.primero select {
-    -webkit-appeareance: none;
+    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #999;

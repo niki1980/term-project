@@ -6,7 +6,4 @@ function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
 
-
- /*$(".accordion").on("click", ".accordion-header", function() {
-    $(this).toggleClass("active").next().slideToggle();
- });*/
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

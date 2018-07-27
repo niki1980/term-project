@@ -14,8 +14,26 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans" rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<script>
+
+    $(function() {
+
+
+   var servicepricing = [];
+
+   $.getJSON('servicepricing.json', function(data) {
+       $.each(data.pricing, function(i, f) {
+          var tblRow = "<tr>" + "<td>" + f.service + "</td>" +
+           "<td>" + f.cost + "</td>" + "<td>"
+           $(tblRow).appendTo("#userdata tbody");
+     });
+
+   });
+
+});
+</script>
 
 </head>
 
@@ -93,7 +111,7 @@
     <script src="scripts/scripts.js"></script>
     <script src="scripts/currentDate.js"></script>
     <script src="scripts/wayfinding.js"></script>
-     <script src="scripts/jQuery.js"></script>
+    <script src="scripts/jQuery.js"></script>
 </body>
 
 </html>

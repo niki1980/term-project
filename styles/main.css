@@ -529,21 +529,19 @@ form llabel.primero input:required:valid {
 }
 table, th, td {
     border: 1px solid #bdbf09;
-    background: lilghtgray;
+    
     text-align: center;
     margin: 0px auto;
     padding: 5px;
     border-collapse: collapse;
-}
-
-#service1,
-#service2,
-#service3,
-#service4,
-#service5,
-#service6,
-#service7 {
   
+}
+/*--------Contact-----------*/
+
+iframe {
+   margin: 2em;
+    align-content: center;
+    width: 100%;
 }
 
 
